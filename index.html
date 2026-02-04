@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>WordPress Development Tutorials | YusufMTech</title>
+<meta name="description" content="Complete WordPress Development tutorial for beginners and professionals. Learn step by step.">
+<link rel="stylesheet" href="style.css">
+<style>
+/* Lesson boxes styling */
+.lesson-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.lesson-box {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.lesson-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.lesson-box h3 {
+  margin-top: 0;
+  color: #1a1a1a;
+}
+.lesson-box p {
+  font-size: 0.95rem;
+  color: #333;
+}
+.lesson-box a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background: #0073aa;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+.lesson-box a:hover {
+  background: #005d87;
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+<h1>WordPress Development Tutorials</h1>
+<p>Learn WordPress from beginner to professional</p>
+</header>
+
+<nav class="nav">
+  <button id="themeToggle">🌙 Dark mode</button>
+</nav>
+
+<main class="container">
+
+<div class="lesson-container">
+  <div class="lesson-box">
+    <h3>Lesson 1: Introduction to WordPress</h3>
+    <p>Learn what WordPress is, why it’s popular, and its key components.</p>
+    <a href="lesson1.html">Start Lesson</a>
+  </div>
+  
+  <div class="lesson-box">
+    <h3>Lesson 2: Installation & Setup</h3>
+    <p>Step-by-step guide to install WordPress and set up your first website.</p>
+    <a href="lesson2.html">Stert Lesson</a>
+  </div>
+  
+  <div class="lesson-box">
+    <h3>Lesson 3: WordPress Dashboard</h3>
+    <p>Master the dashboard and understand posts, pages, media, and settings.</p>
+    <a href="lesson3.html">Start Lesson</a>
+  </div>
+  
+  <div class="lesson-box">
+    <h3>Lesson 4: Themes</h3>
+    <p>Learn to install, customize, and create WordPress themes, including child themes.</p>
+    <a href="lesson4.html">Start Lesson</a>
+  </div>
+  
+  <div class="lesson-box">
+    <h3>Lesson 5: Plugins</h3>
+    <p>Extend your site’s functionality by installing and using essential plugins.</p>
+    <a href="lesson5.html">Start Lesson</a>
+  </div>
+  
+  <div class="lesson-box">
+    <h3>Lesson 6: Development Basics</h3>
+    <p>Get familiar with WordPress HTML, CSS, PHP, and template hierarchy.</p>
+    <a href="lesson6.html">Start Lesson</a>
+  </div>
+  
+  <div class="lesson-box">
+    <h3>Lesson 7: Custom Post Types</h3>
+    <p>Create custom content types like tutorials, portfolios, or products.</p>
+    <a href="lesson7.html">Start Lesson</a>
+  </div>
+  
+  <div class="lesson-box">
+    <h3>Lesson 8: Widgets & Menus</h3>
+    <p>Add widgets and menus to improve navigation and user experience.</p>
+    <a href="lesson8.html">Start Lesson</a>
+  </div>
+  
+  <div class="lesson-box">
+    <h3>Lesson 9: Security & Backups</h3>
+    <p>Protect your site from hackers and create regular backups.</p>
+    <a href="lesson9.html">Start Lesson</a>
+  </div>
+  
+  <div class="lesson-box">
+    <h3>Lesson 10: SEO</h3>
+    <p>Optimize your site for search engines and increase traffic.</p>
+    <a href="lesson10.html">Start Lesson</a>
+  </div>
+  
+  <div class="lesson-box">
+    <h3>Lesson 11: WooCommerce / Online Store</h3>
+    <p>Create an online store and manage products, payments, and shipping.</p>
+    <a href="lesson11.html">Start Lesson</a>
+  </div>
+  
+  <div class="lesson-box">
+    <h3>Lesson 12: Advanced Development & Freelancing</h3>
+    <p>Learn advanced techniques and how to start freelancing as a WordPress developer.</p>
+    <a href="lesson12.html">Start Lesson</a>
+  </div>
+</div>
+
+</main>
+
+<footer class="footer">
+<p>
+<a href="about.html">About</a> |
+<a href="contact.html">Contact</a> |
+<a href="privacy.html">Privacy Policy</a> |
+<a href="disclaimer.html">Disclaimer</a>
+</p>
+<a href="terms.html">Terms and policy</a>
+<p>© 2026 YusufMTech</p>
+</footer>
+<script>
+  const toggle = document.getElementById("themeToggle");
+
+  toggle.addEventListener("click", function () {
+    document.body.classList.toggle("dark");
+  });
+</script>
+
+</body>
+</html>
